@@ -11,17 +11,17 @@
         android:id="@+id/requstText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=cd11c5e9652be322d570e697c9a7fa67&amp;targetDt=20220612"
-        />
+        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=cd11c5e9652be322d570e697c9a7fa67&amp;targetDt=20220612"/>
+
     <Button
         android:id="@+id/requestBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="요청하기"
-        />
+        android:text="요청하기"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="10dp"/>
-        </LinearLayout>
+</LinearLayout>

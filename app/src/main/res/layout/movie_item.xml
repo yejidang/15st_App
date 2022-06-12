@@ -41,7 +41,7 @@
                     android:maxLines="1"
                     android:text="영화제목"
                     android:textColor="#000000"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"/>
 
                 <TextView
                     android:id="@+id/openMovie"
@@ -52,7 +52,7 @@
                     android:paddingRight="10dp"
                     android:text="영화 개봉일"
                     android:textColor="#FF0000FF"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:id="@+id/movieRank"
@@ -63,7 +63,7 @@
                     android:paddingRight="10dp"
                     android:text="순위"
                     android:textColor="#FC5D00"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:id="@+id/peopleCount"
@@ -74,7 +74,7 @@
                     android:paddingRight="10dp"
                     android:text="누적관객수"
                     android:textColor="#03BD1F"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:id="@+id/tdpeopleCount"
@@ -85,8 +85,7 @@
                     android:paddingRight="10dp"
                     android:text="해당일의 관객수"
                     android:textColor="#03BD1F"
-                    android:textSize="16sp" />
-
+                    android:textSize="16sp"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
